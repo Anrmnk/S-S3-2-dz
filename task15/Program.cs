@@ -4,6 +4,8 @@
 // 7 -> да
 // 1 -> нет
 
+// Задача, выполненная по тз:
+
 // Console.WriteLine ("Введите цифру дня недели" + " ");
 // int number = Convert.ToInt32(Console.ReadLine());
 // if ( number <= 7)
