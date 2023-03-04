@@ -5,9 +5,16 @@
 // 918 -> 1
 
 
-Console.Write ("Введите трехзначное число");
+Console.WriteLine ("Введите число" + " ");
 string answer = Console.ReadLine ();
 int number = Convert.ToInt32 (answer);
-int resalt = number / 10;
+if (number >= 100 && number < 1000)
+{
+    int resalt = number / 10;
 int resalt1 = resalt % 10;
 Console.Write (resalt1);
+}
+else 
+{
+    Console.Write ("Число не трехзначное");
+}
