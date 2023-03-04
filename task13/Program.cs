@@ -8,7 +8,7 @@
 
 Console.WriteLine ("Введите число" + " ");
 int number = Convert.ToInt32(Console.ReadLine());
-if (number >= 100)
+if (number > 100)
 {
 while (number > 1000)
 {
